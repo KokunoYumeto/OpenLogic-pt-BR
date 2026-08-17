@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: "Cite a versão DOI para os bytes imutáveis ou o DOI conceitual para a edição pt-BR mais recente."
+title: "The Open Logic Text — edição em português brasileiro"
+type: book
+version: "2026-08-17-r1"
+date-released: 2026-08-17
+authors:
+  - name: "The Open Logic Project"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.21973105"
+    description: "Versão imutável 2026-08-17-r1"
+  - type: doi
+    value: "10.5281/zenodo.21973104"
+    description: "Linhagem permanente da edição em português brasileiro"
+repository-code: "https://github.com/KokunoYumeto/OpenLogic-pt-BR"
+url: "https://doi.org/10.5281/zenodo.21973105"
+license: CC-BY-4.0
+abstract: >-
+  Edição independente e completa em português brasileiro de The Open Logic
+  Text, com cobertura dos 722 arquivos da fonte congelada do Open Logic
+  Project. Não implica endosso do projeto original nem alega revisão humana
+  nativa ou validação comunitária.
+keywords:
+  - lógica
+  - lógica matemática
+  - livro-texto aberto
+  - português brasileiro
+  - pt-BR
+preferred-citation:
+  type: book
+  title: "The Open Logic Text — edição em português brasileiro"
+  authors:
+    - name: "The Open Logic Project"
+  year: 2026
+  publisher:
+    name: Zenodo
+  version: "2026-08-17-r1"
+  doi: "10.5281/zenodo.21973105"
