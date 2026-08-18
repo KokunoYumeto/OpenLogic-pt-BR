@@ -7,18 +7,29 @@ do original.
 
 ## Ler, baixar e citar
 
-- [Leitor completo em PDF](https://github.com/KokunoYumeto/OpenLogic-pt-BR/releases/download/v2026-08-17-r1/00_OLP_pt-BR_CURRENT_LINKED_READER.pdf)
-- [Versão imutável: doi:10.5281/zenodo.21973105](https://doi.org/10.5281/zenodo.21973105)
+- [Leitor completo em PDF](https://github.com/KokunoYumeto/OpenLogic-pt-BR/releases/download/v2026-08-18-r2/00_OLP_pt-BR_CURRENT_LINKED_READER.pdf)
+- [Versão imutável: doi:10.5281/zenodo.22002664](https://doi.org/10.5281/zenodo.22002664)
 - [Linhagem permanente: doi:10.5281/zenodo.21973104](https://doi.org/10.5281/zenodo.21973104)
-- [Artefatos da versão 2026-08-17-r1](https://github.com/KokunoYumeto/OpenLogic-pt-BR/releases/tag/v2026-08-17-r1)
+- [Artefatos da versão 2026-08-18-r2](https://github.com/KokunoYumeto/OpenLogic-pt-BR/releases/tag/v2026-08-18-r2)
+
+## O que mudou em 2026-08-18-r2
+
+Esta versão faz um refluxo editorial integral do leitor. O volume agora usa
+formato de livro de 160 × 230 mm, corpo de 11 pontos, mancha de texto ampla,
+frontispício e expediente em português, sumário reduzido a partes e capítulos,
+aberturas de capítulo compactas e cor de navegação discreta. Avisos internos de
+desenvolvimento e folhas autônomas de parte foram retirados do percurso do
+leitor. O conteúdo traduzido e a cobertura congelada não mudaram.
+
+O PDF tem 1.134 páginas e SHA-256
+`F14C6AC6EAC070B5F5F0C27FF691BC498F0135CC3B2D2880B048601764BA96D8`.
 
 ## Estado desta edição
 
 - Os 722 arquivos da lista congelada estão traduzidos em pt-BR: 606 unidades
   de leitura, 101 controladores de capítulo/parte, 13 fragmentos auxiliares,
   uma raiz de conteúdo e um arquivo de front matter.
-- O leitor completo compila em 1.053 páginas. A compilação final não contém
-  referências ou citações indefinidas.
+- A compilação final não contém referências ou citações indefinidas.
 - Comandos e ambientes TeX, imports, rótulos, referências, identificadores e a
   matemática não textual foram comparados com a fonte congelada por arquivo.
 - `translation_progress.tsv` registra os 722 caminhos, métodos, hashes e
@@ -49,8 +60,8 @@ latexmk -pdf -interaction=nonstopmode -halt-on-error open-logic-complete.tex
 ```
 
 O controlador usa `brazilian` no `babel`, `open-logic-locale.sty` para o
-frontispício e as legendas, e `open-logic-ptBR-config.sty` para os tokens
-textuais `!!{…}`.
+frontispício e as legendas, `open-logic-ptBR-config.sty` para os tokens textuais
+`!!{…}` e `sty/open-logic-ptbr-publication.sty` para o projeto editorial.
 
 ## Artefatos e licença
 
@@ -58,6 +69,6 @@ A versão publicada contém o leitor PDF, fontes editáveis, evidência e
 proveniência, e um manifesto SHA-256. O trabalho original é de
 [The Open Logic Project](https://openlogicproject.org/people/) e é distribuído
 sob a [Creative Commons Atribuição 4.0 Internacional](https://creativecommons.org/licenses/by/4.0/).
-As alterações desta edição são uma tradução/adaptação independente sob a mesma
-licença. Consulte `LICENSE.md`, `TRANSLATION_NOTES.md`, `CITATION.cff` e
+As alterações desta edição são uma tradução/adaptação independente sob a
+mesma licença. Consulte `LICENSE.md`, `TRANSLATION_NOTES.md`, `CITATION.cff` e
 `.zenodo.json`.
