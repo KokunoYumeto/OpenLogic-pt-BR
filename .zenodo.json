@@ -1,6 +1,6 @@
 {
   "title": "The Open Logic Text — edição em português brasileiro",
-  "description": "<p>Edição independente e completa em português brasileiro de <em>The Open Logic Text</em>, com cobertura dos 722 arquivos da fonte congelada do Open Logic Project. Preserva estrutura TeX, matemática, exemplos, exercícios, front matter, navegação, licença e atribuição. Não é uma publicação oficial e não implica endosso do projeto original.</p><p>Fonte: OpenLogicProject/OpenLogic, commit <code>9620cc73f9c8e0ad003c514a5d3748f29611c4c0</code>, árvore <code>f67757bb9305b173634082ab4cefd5601a707a34</code>. A edição não alega revisão humana nativa, validação comunitária nem equivalência com português europeu ou variedades africanas.</p>",
+  "description": "<p>Edição independente e completa em português brasileiro de <em>The Open Logic Text</em>, com cobertura dos 722 arquivos da fonte congelada do Open Logic Project. Preserva estrutura TeX, matemática, exemplos, exercícios, navegação, licença e atribuição. Não é uma publicação oficial e não implica endosso do projeto original.</p><p>A versão 2026-08-18-r2 substitui a composição provisória por um projeto editorial integral de livro em formato 160 × 230 mm, corpo de 11 pontos, frontispício e expediente em português, sumário compacto e hierarquia tipográfica própria. O conteúdo traduzido e a cobertura 722/722 não mudam.</p><p>Fonte: OpenLogicProject/OpenLogic, commit <code>9620cc73f9c8e0ad003c514a5d3748f29611c4c0</code>, árvore <code>f67757bb9305b173634082ab4cefd5601a707a34</code>. A edição não alega revisão humana nativa, validação comunitária nem equivalência com português europeu ou variedades africanas.</p>",
   "creators": [
     {
       "name": "The Open Logic Project"
@@ -11,8 +11,8 @@
   "access_right": "open",
   "license": "cc-by-4.0",
   "language": "por",
-  "version": "2026-08-17-r1",
-  "publication_date": "2026-08-17",
+  "version": "2026-08-18-r2",
+  "publication_date": "2026-08-18",
   "keywords": [
     "logic",
     "mathematical logic",
@@ -32,5 +32,5 @@
       "scheme": "url"
     }
   ],
-  "notes": "Cobertura integral dos 722 arquivos da fonte congelada; edição independente, sem alegação de revisão humana nativa ou validação comunitária. A relação conceitual completa IsTranslationOf é preservada no sidecar DataCite incluído nos artefatos de evidência."
+  "notes": "Nova versão da mesma linhagem Zenodo (DOI conceitual 10.5281/zenodo.21973104). Refluxo editorial integral para formato de livro brasileiro; cobertura integral dos 722 arquivos preservada; sem alegação de revisão humana nativa ou validação comunitária."
 }
