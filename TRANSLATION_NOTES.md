@@ -23,19 +23,14 @@ Dos 722 caminhos, 684 existem nessa árvore e 38 não existem.
 A referência foi aproveitada apenas quando seu conteúdo pôde ser adaptado sem
 romper a autoridade inglesa. Arquivos ainda ingleses, parcialmente traduzidos,
 com matemática divergente ou com comandos incompatíveis foram traduzidos ou
-reparados diretamente. Por isso, o progresso distingue portas estruturais,
-traduções diretas e traduções assistidas pela referência.
+reparados diretamente.
 
 ## Regras de preservação
 
-Cada arquivo foi confrontado com a fonte congelada para preservar:
-
-1. nomes e ordem de comandos TeX;
-2. ambientes e ordem de abertura e fechamento;
-3. imports, rótulos, referências, citações, identificadores, caminhos e URLs;
-4. matemática não textual, permitindo tradução somente em corpos textuais
-   explícitos como `\text{…}`, `\textrm{…}`, `\textnormal{…}` e `\mbox{…}`;
-5. exemplos, exercícios, front matter, navegação, licença e atribuição.
+Cada arquivo foi confrontado com a fonte congelada para preservar nomes e
+ordem de comandos TeX; ambientes; imports, rótulos, referências, citações,
+identificadores, caminhos e URLs; matemática não textual; e exemplos,
+exercícios, navegação, licença e atribuição.
 
 Anomalias da fonte foram preservadas quando corrigi-las mudaria silenciosamente
 a autoridade. Sete correções de alta confiança encontradas durante a tradução
@@ -45,18 +40,23 @@ foram relatadas separadamente ao projeto original em
 ## Registro brasileiro
 
 Escolhas correntes incluem `arquivo`, `seção`, `fato`, `você` e `conjunto
-potência`. Alternativas materialmente úteis incluem `ficheiro`, `secção`,
-`facto`, construções sem `você` e `conjunto das partes`. A edição é rotulada
-honestamente como português brasileiro; não representa uma norma portuguesa,
-africana ou pan-lusófona.
+potência`. A edição é rotulada honestamente como português brasileiro; não
+representa uma norma portuguesa, africana ou pan-lusófona.
 
-## Compilação e limites
+## Projeto editorial da versão r2
 
-O controlador completo usa `brazilian` no `babel` e compila em 1.052 páginas.
-A compilação final não contém referências nem citações indefinidas. Permanecem
-dois avisos de rótulo duplicado herdados da fonte:
-`sfr:siz:red:prob:nat-nat` e `sfr:siz:red:prob:nat-nat@cref`.
+A versão 2026-08-18-r2 recompõe o leitor em formato de livro de 160 × 230 mm,
+com corpo de 11 pontos, mancha de 128 mm, sumário de partes e capítulos,
+aberturas compactas e ligações em cor discreta. O novo projeto elimina avisos
+internos de desenvolvimento e folhas autônomas de parte do percurso do leitor.
+O refluxo não altera o corpus traduzido.
 
-A cobertura 722/722, a paridade mecânica, a compilação e a inspeção visual não
-equivalem a revisão humana nativa, validação didática ou aceitação comunitária.
-Essas condições não são alegadas nem impostas como barreira de publicação.
+DOI desta versão: <https://doi.org/10.5281/zenodo.22002664>.
+
+O leitor completo tem 1.134 páginas e SHA-256
+`F14C6AC6EAC070B5F5F0C27FF691BC498F0135CC3B2D2880B048601764BA96D8`.
+A compilação final não contém referências nem citações indefinidas.
+
+A cobertura 722/722, a paridade mecânica, a compilação e a inspeção visual
+não equivalem a revisão humana nativa, validação didática ou aceitação
+comunitária. Essas condições não são alegadas.
