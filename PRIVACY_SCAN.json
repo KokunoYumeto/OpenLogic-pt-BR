@@ -1,0 +1,16 @@
+{
+  "schema": "openlogic.pt-BR.publication-privacy-scan/1.0",
+  "source": {
+    "scanned_text_files": 757,
+    "matches": [],
+    "pass": true
+  },
+  "evidence": {
+    "scanned_text_files": 8,
+    "matches": [],
+    "pass": true
+  },
+  "metadata_process_commentary_absent": true,
+  "credential_values_recorded": false,
+  "pass": true
+}

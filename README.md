@@ -1,74 +1,53 @@
 # The Open Logic Text — edição em português brasileiro
 
-Edição independente e completa em português brasileiro (`pt-BR`) do material
-do [Open Logic Project](https://openlogicproject.org/). Ela não é uma
-publicação oficial do projeto e não implica endosso dos autores ou mantenedores
-do original.
+Edição independente e completa em português brasileiro (`pt-BR`) de
+*The Open Logic Text*, do [Open Logic Project](https://openlogicproject.org/).
+O livro apresenta lógica formal e metalógica em um percurso amplo: lógica
+proposicional e de primeira ordem, teoria de modelos, computabilidade,
+incompletude, lógica modal, teoria dos conjuntos e teoria da prova.
 
 ## Ler, baixar e citar
 
-- [Leitor completo em PDF](https://github.com/KokunoYumeto/OpenLogic-pt-BR/releases/download/v2026-08-18-r2/00_OLP_pt-BR_CURRENT_LINKED_READER.pdf)
-- [Versão imutável: doi:10.5281/zenodo.22002664](https://doi.org/10.5281/zenodo.22002664)
+- [Leitor completo em PDF](https://github.com/KokunoYumeto/OpenLogic-pt-BR/releases/download/v2026-08-20-r4/00_OLP_pt-BR_CURRENT_LINKED_READER.pdf)
+- [Versão imutável: doi:10.5281/zenodo.22032986](https://doi.org/10.5281/zenodo.22032986)
 - [Linhagem permanente: doi:10.5281/zenodo.21973104](https://doi.org/10.5281/zenodo.21973104)
-- [Artefatos da versão 2026-08-18-r2](https://github.com/KokunoYumeto/OpenLogic-pt-BR/releases/tag/v2026-08-18-r2)
+- [Fontes e evidência da versão 2026-08-20-r4](https://github.com/KokunoYumeto/OpenLogic-pt-BR/releases/tag/v2026-08-20-r4)
 
-## O que mudou em 2026-08-18-r2
+## Esta edição
 
-Esta versão faz um refluxo editorial integral do leitor. O volume agora usa
-formato de livro de 160 × 230 mm, corpo de 11 pontos, mancha de texto ampla,
-frontispício e expediente em português, sumário reduzido a partes e capítulos,
-aberturas de capítulo compactas e cor de navegação discreta. Avisos internos de
-desenvolvimento e folhas autônomas de parte foram retirados do percurso do
-leitor. O conteúdo traduzido e a cobertura congelada não mudaram.
-
-O PDF tem 1.134 páginas e SHA-256
-`F14C6AC6EAC070B5F5F0C27FF691BC498F0135CC3B2D2880B048601764BA96D8`.
-
-## Estado desta edição
-
-- Os 722 arquivos da lista congelada estão traduzidos em pt-BR: 606 unidades
-  de leitura, 101 controladores de capítulo/parte, 13 fragmentos auxiliares,
-  uma raiz de conteúdo e um arquivo de front matter.
-- A compilação final não contém referências ou citações indefinidas.
-- Comandos e ambientes TeX, imports, rótulos, referências, identificadores e a
-  matemática não textual foram comparados com a fonte congelada por arquivo.
-- `translation_progress.tsv` registra os 722 caminhos, métodos, hashes e
+- O corpus congelado tem 722 arquivos traduzidos: 606 unidades de leitura,
+  101 controladores de capítulo ou parte, 13 fragmentos auxiliares, uma raiz
+  de conteúdo e um arquivo de abertura.
+- O leitor completo tem 1.030 páginas em formato Letter, com sumário,
+  bibliografia e links internos.
+- Comandos e ambientes TeX, imports, rótulos, referências, identificadores e
+  a estrutura matemática foram comparados com a fonte congelada por arquivo.
+- `translation_progress.tsv` registra os 722 caminhos, estados, hashes e
   resultados de paridade.
-- Não se alega revisão humana nativa, validação comunitária ou equivalência
-  normativa com português europeu ou variedades dos países africanos de
-  língua portuguesa.
 
-## Fonte e referência portuguesa
+## Fonte e atribuição
 
-A autoridade é `OpenLogicProject/OpenLogic`, commit
+A autoridade textual é `OpenLogicProject/OpenLogic`, commit
 `9620cc73f9c8e0ad003c514a5d3748f29611c4c0`, árvore
-`f67757bb9305b173634082ab4cefd5601a707a34`, sob CC BY 4.0. O universo de
-tradução é a lista de 722 caminhos de `control/CLOSURE_0722.csv`.
-
-A publicação `OpenLogicProject/OpenLogic-pt` foi usada como referência quando
-estruturalmente compatível, fixada no commit
-`51c227190f56bae45d19a85747fc031de430bd3c`, árvore
-`5083d9763a3b6de3718e8400950f43e1eb4bd955`. Ela contém 684 dos 722 caminhos;
-nenhum texto foi aceito apenas por igualdade de nome ou caminho.
+`f67757bb9305b173634082ab4cefd5601a707a34`, sob CC BY 4.0. A edição
+portuguesa existente em `OpenLogicProject/OpenLogic-pt`, commit
+`51c227190f56bae45d19a85747fc031de430bd3c`, foi usada como referência
+quando estruturalmente compatível. Esta publicação é uma adaptação
+independente e não implica endosso dos autores ou mantenedores do original.
 
 ## Compilar
 
-Com uma instalação TeX Live ou MiKTeX completa:
+Com uma instalação completa de TeX Live ou MiKTeX:
 
 ```text
 latexmk -pdf -interaction=nonstopmode -halt-on-error open-logic-complete.tex
 ```
 
-O controlador usa `brazilian` no `babel`, `open-logic-locale.sty` para o
-frontispício e as legendas, `open-logic-ptBR-config.sty` para os tokens textuais
-`!!{…}` e `sty/open-logic-ptbr-publication.sty` para o projeto editorial.
+O controlador usa `brazilian` no `babel`, Palatino/Helvetica/Courier e a
+infraestrutura completa do Open Logic Project.
 
-## Artefatos e licença
+## Arquivos publicados
 
-A versão publicada contém o leitor PDF, fontes editáveis, evidência e
-proveniência, e um manifesto SHA-256. O trabalho original é de
-[The Open Logic Project](https://openlogicproject.org/people/) e é distribuído
-sob a [Creative Commons Atribuição 4.0 Internacional](https://creativecommons.org/licenses/by/4.0/).
-As alterações desta edição são uma tradução/adaptação independente sob a
-mesma licença. Consulte `LICENSE.md`, `TRANSLATION_NOTES.md`, `CITATION.cff` e
-`.zenodo.json`.
+A versão inclui o leitor PDF, as fontes TeX editáveis, a evidência de
+proveniência e um manifesto SHA-256. Consulte `LICENSE.md`,
+`TRANSLATION_NOTES.md`, `CITATION.cff` e `.zenodo.json`.
