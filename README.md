@@ -8,17 +8,17 @@ incompletude, lógica modal, teoria dos conjuntos e teoria da prova.
 
 ## Ler, baixar e citar
 
-- [Leitor completo em PDF](https://github.com/KokunoYumeto/OpenLogic-pt-BR/releases/download/v2026-08-20-r4/00_OLP_pt-BR_CURRENT_LINKED_READER.pdf)
-- [Versão imutável: doi:10.5281/zenodo.22032986](https://doi.org/10.5281/zenodo.22032986)
+- [Leitor completo em PDF](https://github.com/KokunoYumeto/OpenLogic-pt-BR/releases/download/v2026-08-20-r5/00_OLP_pt-BR_CURRENT_LINKED_READER.pdf)
+- [Versão imutável: doi:10.5281/zenodo.22036013](https://doi.org/10.5281/zenodo.22036013)
 - [Linhagem permanente: doi:10.5281/zenodo.21973104](https://doi.org/10.5281/zenodo.21973104)
-- [Fontes e evidência da versão 2026-08-20-r4](https://github.com/KokunoYumeto/OpenLogic-pt-BR/releases/tag/v2026-08-20-r4)
+- [Fontes e evidência da versão 2026-08-20-r5](https://github.com/KokunoYumeto/OpenLogic-pt-BR/releases/tag/v2026-08-20-r5)
 
 ## Esta edição
 
 - O corpus congelado tem 722 arquivos traduzidos: 606 unidades de leitura,
   101 controladores de capítulo ou parte, 13 fragmentos auxiliares, uma raiz
   de conteúdo e um arquivo de abertura.
-- O leitor completo tem 1.030 páginas em formato Letter, com sumário,
+- O leitor completo tem 1.029 páginas em formato Letter, com sumário,
   bibliografia e links internos.
 - Comandos e ambientes TeX, imports, rótulos, referências, identificadores e
   a estrutura matemática foram comparados com a fonte congelada por arquivo.

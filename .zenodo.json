@@ -6,12 +6,18 @@
       "name": "The Open Logic Project"
     }
   ],
+  "contributors": [
+    {
+      "name": "AI typesetting & translation",
+      "type": "Other"
+    }
+  ],
   "upload_type": "publication",
   "publication_type": "book",
   "access_right": "open",
   "license": "cc-by-4.0",
   "language": "por",
-  "version": "2026-08-20-r4",
+  "version": "2026-08-20-r5",
   "publication_date": "2026-08-20",
   "keywords": [
     "lógica formal",

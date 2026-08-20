@@ -1,10 +1,15 @@
 {
-  "schema": "openlogic.pt-BR.release-qa/2.0",
-  "release_version": "2026-08-20-r4",
+  "schema": "openlogic.pt-BR.release-qa/3.0",
+  "release_version": "2026-08-20-r5",
   "publication_date": "2026-08-20",
   "pass": true,
   "creator": "The Open Logic Project",
-  "contributors": [],
+  "contributors": [
+    {
+      "name": "AI typesetting & translation",
+      "type": "Other"
+    }
+  ],
   "authority": {
     "source_commit": "9620cc73f9c8e0ad003c514a5d3748f29611c4c0",
     "source_tree": "f67757bb9305b173634082ab4cefd5601a707a34",
@@ -14,9 +19,9 @@
   },
   "reader": {
     "relative_path": "00_OLP_pt-BR_CURRENT_LINKED_READER.pdf",
-    "bytes": 5952501,
-    "sha256": "9DEBB5F2C3EC36A8345649850DE7445F11E5CB414AA673938046809C990685B0",
-    "pages": 1030,
+    "bytes": 5954807,
+    "sha256": "F77C16455C8F8A5526569899E8AFA83F7E4151C90D8FDAE8D2453F983F31196B",
+    "pages": 1029,
     "page_size_points": [
       612,
       792
@@ -29,26 +34,40 @@
     "rows": 722,
     "source_mismatches": 0,
     "target_mismatches": 0,
-    "target_bytes": 3132066,
-    "bytes": 558234,
-    "sha256": "1A60D352D06151287864AC81D3AB21B439371181C540FB580A5790F434332EB6"
+    "target_bytes": 3132034,
+    "bytes": 558268,
+    "sha256": "3D1E42299781295AC9B9A33BA809DA82CDBEA18706A5B00D0E11CE37E9E4ABF5"
   },
   "pdf_qa": {
+    "build_receipt": "evidence/PTBR_HUMAN_COMPLETE_TEMPLATE_BUILD_QA_20260820_R5.json",
     "font_rows": 28,
     "type3_fonts": 0,
     "not_embedded_fonts": 0,
-    "internal_links": 2828,
-    "uri_links": 79,
-    "off_page_or_degenerate_links": 0,
-    "off_page_glyphs": 0,
-    "off_page_vectors": 0,
-    "off_page_images": 0,
-    "blank_pages": 0,
-    "fatal_errors": 0,
+    "uri_links": 78,
+    "visible_glyphs_scanned": 1619702,
+    "rectangles_scanned": 34,
+    "curves_scanned": 804,
+    "lines_scanned": 6832,
+    "visible_boundary_crossings": 0,
+    "wrong_page_boxes": 0,
+    "visual_pages": [
+      1,
+      2,
+      3,
+      4,
+      25,
+      26,
+      364,
+      466,
+      515,
+      1029
+    ],
+    "visual_verdict": "PASS_NO_CLIPPING_COLLISION_OR_CENTERING_SHIFT",
+    "font_family_match_to_human_complete_pdf": true,
     "undefined_references": 0,
     "missing_characters": 0
   },
-  "version_doi": "10.5281/zenodo.22032986",
+  "version_doi": "10.5281/zenodo.22036013",
   "concept_doi": "10.5281/zenodo.21973104",
   "exact_reader_authority_preserved": true,
   "credential_values_recorded": false

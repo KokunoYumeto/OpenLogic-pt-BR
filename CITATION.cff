@@ -2,19 +2,21 @@ cff-version: 1.2.0
 message: "Cite a versão DOI para os bytes imutáveis ou o DOI conceitual para a edição pt-BR mais recente."
 title: "The Open Logic Text — edição em português brasileiro"
 type: book
-version: "2026-08-20-r4"
+version: "2026-08-20-r5"
 date-released: 2026-08-20
 authors:
   - name: "The Open Logic Project"
+contributors:
+  - name: "AI typesetting & translation"
 identifiers:
   - type: doi
-    value: "10.5281/zenodo.22032986"
-    description: "Versão imutável 2026-08-20-r4"
+    value: "10.5281/zenodo.22036013"
+    description: "Versão imutável 2026-08-20-r5"
   - type: doi
     value: "10.5281/zenodo.21973104"
     description: "Linhagem permanente da edição em português brasileiro"
 repository-code: "https://github.com/KokunoYumeto/OpenLogic-pt-BR"
-url: "https://doi.org/10.5281/zenodo.22032986"
+url: "https://doi.org/10.5281/zenodo.22036013"
 license: CC-BY-4.0
 abstract: >-
   Edição independente e completa em português brasileiro de The Open Logic
@@ -32,8 +34,10 @@ preferred-citation:
   title: "The Open Logic Text — edição em português brasileiro"
   authors:
     - name: "The Open Logic Project"
+  contributors:
+    - name: "AI typesetting & translation"
   year: 2026
   publisher:
     name: Zenodo
-  version: "2026-08-20-r4"
-  doi: "10.5281/zenodo.22032986"
+  version: "2026-08-20-r5"
+  doi: "10.5281/zenodo.22036013"
