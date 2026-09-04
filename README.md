@@ -1,5 +1,7 @@
 # The Open Logic Text — edição em português brasileiro
 
+> Esta edição consta do [catálogo central de traduções do Open Logic](https://github.com/KokunoYumeto/OpenLogic-translations); o catálogo distingue a cobertura das fontes traduzidas da cobertura do leitor independente.
+
 Edição independente e completa em português brasileiro (`pt-BR`) de
 *The Open Logic Text*, do [Open Logic Project](https://openlogicproject.org/).
 O livro apresenta lógica formal e metalógica em um percurso amplo: lógica
