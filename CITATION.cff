@@ -1,43 +1,27 @@
 cff-version: 1.2.0
-message: "Cite a versão DOI para os bytes imutáveis ou o DOI conceitual para a edição pt-BR mais recente."
+message: "Para os arquivos exatos publicados, cite a URL e a versão GitHub r4. O DOI conceitual identifica a edição, não esses mesmos bytes."
 title: "The Open Logic Text — edição em português brasileiro"
-type: book
-version: "2026-08-20-r5"
-date-released: 2026-08-20
+version: "2026-08-20-r4"
+date-released: "2026-08-20"
 authors:
   - name: "The Open Logic Project"
-contributors:
-  - name: "AI typesetting & translation"
 identifiers:
   - type: doi
-    value: "10.5281/zenodo.22036013"
-    description: "Versão imutável 2026-08-20-r5"
-  - type: doi
     value: "10.5281/zenodo.21973104"
-    description: "Linhagem permanente da edição em português brasileiro"
+    description: "Linhagem conceitual; o registro Zenodo atual não é idêntico ao pacote GitHub r4."
 repository-code: "https://github.com/KokunoYumeto/OpenLogic-pt-BR"
-url: "https://doi.org/10.5281/zenodo.22036013"
+url: "https://github.com/KokunoYumeto/OpenLogic-pt-BR/releases/tag/v2026-08-20-r4"
 license: CC-BY-4.0
 abstract: >-
-  Edição independente e completa em português brasileiro de The Open Logic
-  Text, livro-texto aberto de lógica formal e metalógica, com cobertura dos
-  722 arquivos da fonte congelada do Open Logic Project.
-keywords:
-  - lógica formal
-  - metalógica
-  - lógica matemática
-  - livro-texto aberto
-  - português brasileiro
-  - pt-BR
+  Adaptação independente em português brasileiro de The Open Logic Text. As fontes
+  traduzidas e a cobertura do leitor são verificadas separadamente; consulte
+  PUBLICATION_STATUS.json.
+  Tradução e composição assistidas por IA.
 preferred-citation:
   type: book
   title: "The Open Logic Text — edição em português brasileiro"
   authors:
     - name: "The Open Logic Project"
-  contributors:
-    - name: "AI typesetting & translation"
+  version: "2026-08-20-r4"
   year: 2026
-  publisher:
-    name: Zenodo
-  version: "2026-08-20-r5"
-  doi: "10.5281/zenodo.22036013"
+  url: "https://github.com/KokunoYumeto/OpenLogic-pt-BR/releases/tag/v2026-08-20-r4"

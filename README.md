@@ -1,55 +1,21 @@
 # The Open Logic Text — edição em português brasileiro
 
-> Esta edição consta do [catálogo central de traduções do Open Logic](https://github.com/KokunoYumeto/OpenLogic-translations); o catálogo distingue a cobertura das fontes traduzidas da cobertura do leitor independente.
+Adaptação independente em português brasileiro do [Open Logic Project](https://openlogicproject.org/), sob CC BY 4.0. É uma edição assistida por IA e não oficial; não implica endosso do projeto original.
 
-Edição independente e completa em português brasileiro (`pt-BR`) de
-*The Open Logic Text*, do [Open Logic Project](https://openlogicproject.org/).
-O livro apresenta lógica formal e metalógica em um percurso amplo: lógica
-proposicional e de primeira ordem, teoria de modelos, computabilidade,
-incompletude, lógica modal, teoria dos conjuntos e teoria da prova.
+Esta edição consta do [catálogo central de traduções](https://github.com/KokunoYumeto/OpenLogic-translations). A cobertura das fontes traduzidas e a cobertura de um leitor PDF são verificadas separadamente.
 
-## Ler, baixar e citar
+## Ler e baixar
 
-- [Leitor completo em PDF](https://github.com/KokunoYumeto/OpenLogic-pt-BR/releases/download/v2026-08-20-r5/00_OLP_pt-BR_CURRENT_LINKED_READER.pdf)
-- [Versão imutável: doi:10.5281/zenodo.22036013](https://doi.org/10.5281/zenodo.22036013)
-- [Linhagem permanente: doi:10.5281/zenodo.21973104](https://doi.org/10.5281/zenodo.21973104)
-- [Fontes e evidência da versão 2026-08-20-r5](https://github.com/KokunoYumeto/OpenLogic-pt-BR/releases/tag/v2026-08-20-r5)
+- [Leitor publicado no GitHub — r4](https://github.com/KokunoYumeto/OpenLogic-pt-BR/releases/download/v2026-08-20-r4/00_OLP_pt-BR_CURRENT_LINKED_READER.pdf)
+- [Fontes editáveis, evidência e manifesto de r4](https://github.com/KokunoYumeto/OpenLogic-pt-BR/releases/tag/v2026-08-20-r4)
+- [Arquivo Zenodo da edição](https://doi.org/10.5281/zenodo.21973104)
 
-## Esta edição
+Os quatro arquivos do GitHub r4 foram baixados anonimamente em 4 de setembro de 2026 e correspondem aos tamanhos e ao manifesto SHA-256 publicados. O leitor tem 1.030 páginas. O registro Zenodo atual contém outro PDF, com os bytes do leitor histórico r5, acompanhado de arquivos de fontes/evidência de outra geração. Não se afirma identidade de pacote entre os dois espelhos.
 
-- O corpus congelado tem 722 arquivos traduzidos: 606 unidades de leitura,
-  101 controladores de capítulo ou parte, 13 fragmentos auxiliares, uma raiz
-  de conteúdo e um arquivo de abertura.
-- O leitor completo tem 1.029 páginas em formato Letter, com sumário,
-  bibliografia e links internos.
-- Comandos e ambientes TeX, imports, rótulos, referências, identificadores e
-  a estrutura matemática foram comparados com a fonte congelada por arquivo.
-- `translation_progress.tsv` registra os 722 caminhos, estados, hashes e
-  resultados de paridade.
+## Cobertura e trabalho restante
 
-## Fonte e atribuição
+A auditoria local atual verifica 722 arquivos traduzidos contra seu registro de hashes. Porém, o registro de compilação do leitor local posterior r6 carrega 642 desses arquivos, não os 722. A integração e a verificação de um leitor independente com todo o corpus continuam pendentes. Essa medição do leitor local r6 não é apresentada como uma nova auditoria da compilação pública r4.
 
-A autoridade textual é `OpenLogicProject/OpenLogic`, commit
-`9620cc73f9c8e0ad003c514a5d3748f29611c4c0`, árvore
-`f67757bb9305b173634082ab4cefd5601a707a34`, sob CC BY 4.0. A edição
-portuguesa existente em `OpenLogicProject/OpenLogic-pt`, commit
-`51c227190f56bae45d19a85747fc031de430bd3c`, foi usada como referência
-quando estruturalmente compatível. Esta publicação é uma adaptação
-independente e não implica endosso dos autores ou mantenedores do original.
+Os arquivos históricos `RELEASE_QA.json`, `ARTIFACT_SHA256.tsv` e `.zenodo.json` descrevem o candidato r5. Permanecem preservados como evidência, mas não provam a existência de uma publicação GitHub r5 nem a identidade dos arquivos locais posteriores. Os links de leitura e citação já não apontam para esse lançamento inexistente.
 
-## Compilar
-
-Com uma instalação completa de TeX Live ou MiKTeX:
-
-```text
-latexmk -pdf -interaction=nonstopmode -halt-on-error open-logic-complete.tex
-```
-
-O controlador usa `brazilian` no `babel`, Palatino/Helvetica/Courier e a
-infraestrutura completa do Open Logic Project.
-
-## Arquivos publicados
-
-A versão inclui o leitor PDF, as fontes TeX editáveis, a evidência de
-proveniência e um manifesto SHA-256. Consulte `LICENSE.md`,
-`TRANSLATION_NOTES.md`, `CITATION.cff` e `.zenodo.json`.
+Consulte [PUBLICATION_STATUS.json](PUBLICATION_STATUS.json) para as identidades verificadas e as diferenças entre versões. As revisões exatas das fontes, a referência portuguesa oficial e a atribuição estão em [TRANSLATION_NOTES.md](TRANSLATION_NOTES.md) e [LICENSE.md](LICENSE.md).
