@@ -1,0 +1,80 @@
+{
+  "schema": "openlogic-publication-reconciliation/1",
+  "checked_date": "2026-09-04",
+  "edition": "pt-BR",
+  "github_release": "v2026-08-20-r4",
+  "github_pdf": {
+    "name": "00_OLP_pt-BR_CURRENT_LINKED_READER.pdf",
+    "bytes": 5952501,
+    "sha256": "9debb5f2c3ec36a8345649850de7445f11e5cb414aa673938046809c990685b0",
+    "url": "https://github.com/KokunoYumeto/OpenLogic-pt-BR/releases/download/v2026-08-20-r4/00_OLP_pt-BR_CURRENT_LINKED_READER.pdf",
+    "anonymous_download": true
+  },
+  "zenodo_record": "22050183",
+  "zenodo_concept": "21973104",
+  "zenodo_version": null,
+  "zenodo_pdf": {
+    "name": "00_OLP_pt-BR_CURRENT_LINKED_READER.pdf",
+    "bytes": 5954807,
+    "sha256": "f77c16455c8f8a5526569899e8afa83f7e4151c90d8fdae8d2453f983f31196b",
+    "md5": "2d82bbe405d2524c03d91357727df8be",
+    "url": "https://zenodo.org/api/records/22050183/files/00_OLP_pt-BR_CURRENT_LINKED_READER.pdf/content",
+    "anonymous": true,
+    "inventory_checksum_matches": true
+  },
+  "zenodo_files": [
+    {
+      "name": "01_OLP_pt-BR_EDITABLE_SOURCES.zip",
+      "bytes": 1998013,
+      "sha256": "068d50a39190fba1da674c67ffe1eabdd4d259b7ed389e95356133b39d53c274",
+      "md5": "860cbc816676b76012ce4a3ce4ce1ee6",
+      "url": "https://zenodo.org/api/records/22050183/files/01_OLP_pt-BR_EDITABLE_SOURCES.zip/content",
+      "anonymous": true,
+      "inventory_checksum_matches": true
+    },
+    {
+      "name": "03_OLP_pt-BR_SHA256_MANIFEST.txt",
+      "bytes": 338,
+      "sha256": "a73056d19c6accd473245f77cd3c278ccc7ddcacba12975f5778ec8e167e7571",
+      "md5": "b0e178ff41874518bdfe800b43e4bb9c",
+      "url": "https://zenodo.org/api/records/22050183/files/03_OLP_pt-BR_SHA256_MANIFEST.txt/content",
+      "anonymous": true,
+      "inventory_checksum_matches": true
+    },
+    {
+      "name": "02_OLP_pt-BR_EVIDENCE_AND_PROVENANCE.zip",
+      "bytes": 157319,
+      "sha256": "1d938efff6ae5e25ba0fb135301232be3d4acda15536420c1644ea0b8ae2f954",
+      "md5": "557646e1801ebbfeaf656c50f5934e31",
+      "url": "https://zenodo.org/api/records/22050183/files/02_OLP_pt-BR_EVIDENCE_AND_PROVENANCE.zip/content",
+      "anonymous": true,
+      "inventory_checksum_matches": true
+    },
+    {
+      "name": "00_OLP_pt-BR_CURRENT_LINKED_READER.pdf",
+      "bytes": 5954807,
+      "sha256": "f77c16455c8f8a5526569899e8afa83f7e4151c90d8fdae8d2453f983f31196b",
+      "md5": "2d82bbe405d2524c03d91357727df8be",
+      "url": "https://zenodo.org/api/records/22050183/files/00_OLP_pt-BR_CURRENT_LINKED_READER.pdf/content",
+      "anonymous": true,
+      "inventory_checksum_matches": true
+    }
+  ],
+  "github_and_zenodo_pdf_identical": false,
+  "current_local_source_target_hash_matches": 722,
+  "current_local_reader_fls_source_paths": 642,
+  "current_local_reader_log_source_paths": 642,
+  "current_local_reader_missing_paths": 80,
+  "current_local_pdf_is_historical_r5": false,
+  "current_local_reader_version": "2026-08-21-r6 driver; different bytes from historical r5 QA",
+  "public_r4_reader_closure_independently_replayed": false,
+  "standalone_722_reader_verified": false,
+  "historical_r5_files_preserved": [
+    "RELEASE_QA.json",
+    "ARTIFACT_SHA256.tsv",
+    ".zenodo.json"
+  ],
+  "explanation": "Current GitHub reader/citation links target the anonymously verified r4 release. Preserved r5 metadata is historical evidence, not proof that an r5 GitHub release exists or that later local readers match it. Current local reader coverage and public r4 coverage are deliberately not conflated.",
+  "full_audit": "https://github.com/KokunoYumeto/OpenLogic-translations/blob/main/evidence/ROMANCE_MIRROR_AUDIT.json",
+  "translation_content_changed": false
+}

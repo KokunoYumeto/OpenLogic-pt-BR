@@ -1,80 +1,34 @@
 {
-  "schema": "openlogic-publication-reconciliation/1",
-  "checked_date": "2026-09-04",
+  "schema": "openlogic-publication-status/2",
+  "checked_date": "2026-09-27",
   "edition": "pt-BR",
-  "github_release": "v2026-08-20-r4",
+  "status": "Leitor completo publicado: 722/722",
+  "source_units_translated": 722,
+  "standalone_reader_units": 722,
+  "standalone_722_reader_verified": true,
+  "reader_pages": 1124,
+  "reader_revision": "2026-09-20-r2",
+  "github_release": "https://github.com/KokunoYumeto/OpenLogic-pt-BR/releases/tag/v2026-09-25-reader722-r2",
   "github_pdf": {
-    "name": "00_OLP_pt-BR_CURRENT_LINKED_READER.pdf",
-    "bytes": 5952501,
-    "sha256": "9debb5f2c3ec36a8345649850de7445f11e5cb414aa673938046809c990685b0",
-    "url": "https://github.com/KokunoYumeto/OpenLogic-pt-BR/releases/download/v2026-08-20-r4/00_OLP_pt-BR_CURRENT_LINKED_READER.pdf",
-    "anonymous_download": true
+    "name": "00_OpenLogic_pt-BR_722.pdf",
+    "bytes": 6134799,
+    "sha256": "1ea7bb4707f6e348336354f2d3444ade6c6829643230db70f2e88d0ea599e534",
+    "url": "https://github.com/KokunoYumeto/OpenLogic-pt-BR/releases/download/v2026-09-25-reader722-r2/00_OpenLogic_pt-BR_722.pdf",
+    "anonymous_download_rechecked": "2026-09-27"
   },
-  "zenodo_record": "22050183",
-  "zenodo_concept": "21973104",
-  "zenodo_version": null,
-  "zenodo_pdf": {
-    "name": "00_OLP_pt-BR_CURRENT_LINKED_READER.pdf",
-    "bytes": 5954807,
-    "sha256": "f77c16455c8f8a5526569899e8afa83f7e4151c90d8fdae8d2453f983f31196b",
-    "md5": "2d82bbe405d2524c03d91357727df8be",
-    "url": "https://zenodo.org/api/records/22050183/files/00_OLP_pt-BR_CURRENT_LINKED_READER.pdf/content",
-    "anonymous": true,
-    "inventory_checksum_matches": true
+  "editable_latex": "https://github.com/KokunoYumeto/OpenLogic-pt-BR/releases/download/v2026-09-25-reader722-r2/01_OpenLogic_pt-BR_722.tex",
+  "complete_source_zip": "https://github.com/KokunoYumeto/OpenLogic-pt-BR/releases/download/v2026-09-25-reader722-r2/02_OpenLogic_pt-BR_fontes.zip",
+  "zenodo_record": "https://zenodo.org/records/22951065",
+  "doi": "10.5281/zenodo.22951065",
+  "public_release_evidence": "https://github.com/KokunoYumeto/OpenLogic-translations/blob/main/evidence/ROMANCE_READERS_PUBLIC_20260925.json",
+  "historical_reconciliation": {
+    "path": "history/PUBLICATION_STATUS_2026-09-04.json",
+    "checked_date": "2026-09-04",
+    "sha256": "e70dee0183ea286f9c3ac685c4adc4cfa2626eff731d76fd90b8f92fc80dd263",
+    "former_local_r6_reader_units": 642,
+    "explanation": "O número 642 pertencia a uma configuração local r6 medida em 4 de setembro; não descreve o PDF independente de 722 unidades publicado depois. Os 80 arquivos adicionais incluem unidades e materiais auxiliares preservados fora do percurso ordinário; não são 80 capítulos omitidos."
   },
-  "zenodo_files": [
-    {
-      "name": "01_OLP_pt-BR_EDITABLE_SOURCES.zip",
-      "bytes": 1998013,
-      "sha256": "068d50a39190fba1da674c67ffe1eabdd4d259b7ed389e95356133b39d53c274",
-      "md5": "860cbc816676b76012ce4a3ce4ce1ee6",
-      "url": "https://zenodo.org/api/records/22050183/files/01_OLP_pt-BR_EDITABLE_SOURCES.zip/content",
-      "anonymous": true,
-      "inventory_checksum_matches": true
-    },
-    {
-      "name": "03_OLP_pt-BR_SHA256_MANIFEST.txt",
-      "bytes": 338,
-      "sha256": "a73056d19c6accd473245f77cd3c278ccc7ddcacba12975f5778ec8e167e7571",
-      "md5": "b0e178ff41874518bdfe800b43e4bb9c",
-      "url": "https://zenodo.org/api/records/22050183/files/03_OLP_pt-BR_SHA256_MANIFEST.txt/content",
-      "anonymous": true,
-      "inventory_checksum_matches": true
-    },
-    {
-      "name": "02_OLP_pt-BR_EVIDENCE_AND_PROVENANCE.zip",
-      "bytes": 157319,
-      "sha256": "1d938efff6ae5e25ba0fb135301232be3d4acda15536420c1644ea0b8ae2f954",
-      "md5": "557646e1801ebbfeaf656c50f5934e31",
-      "url": "https://zenodo.org/api/records/22050183/files/02_OLP_pt-BR_EVIDENCE_AND_PROVENANCE.zip/content",
-      "anonymous": true,
-      "inventory_checksum_matches": true
-    },
-    {
-      "name": "00_OLP_pt-BR_CURRENT_LINKED_READER.pdf",
-      "bytes": 5954807,
-      "sha256": "f77c16455c8f8a5526569899e8afa83f7e4151c90d8fdae8d2453f983f31196b",
-      "md5": "2d82bbe405d2524c03d91357727df8be",
-      "url": "https://zenodo.org/api/records/22050183/files/00_OLP_pt-BR_CURRENT_LINKED_READER.pdf/content",
-      "anonymous": true,
-      "inventory_checksum_matches": true
-    }
-  ],
-  "github_and_zenodo_pdf_identical": false,
-  "current_local_source_target_hash_matches": 722,
-  "current_local_reader_fls_source_paths": 642,
-  "current_local_reader_log_source_paths": 642,
-  "current_local_reader_missing_paths": 80,
-  "current_local_pdf_is_historical_r5": false,
-  "current_local_reader_version": "2026-08-21-r6 driver; different bytes from historical r5 QA",
-  "public_r4_reader_closure_independently_replayed": false,
-  "standalone_722_reader_verified": false,
-  "historical_r5_files_preserved": [
-    "RELEASE_QA.json",
-    "ARTIFACT_SHA256.tsv",
-    ".zenodo.json"
-  ],
-  "explanation": "Current GitHub reader/citation links target the anonymously verified r4 release. Preserved r5 metadata is historical evidence, not proof that an r5 GitHub release exists or that later local readers match it. Current local reader coverage and public r4 coverage are deliberately not conflated.",
-  "full_audit": "https://github.com/KokunoYumeto/OpenLogic-translations/blob/main/evidence/ROMANCE_MIRROR_AUDIT.json",
-  "translation_content_changed": false
+  "linguistic_review_completed": false,
+  "review_notice": "A completude do leitor e de suas fontes não equivale a certificação linguística nem a revisão humana. A revisão terminológica e do cânone continua em andamento.",
+  "ai_work_notice": "A tradução histórica teve assistência de IA; os registros consultados não permitem atribuir com segurança um modelo e nível de esforço a todos os trechos. Essa atribuição não é inventada. O empacotamento e a verificação de identidade do leitor publicado foram feitos por OpenAI Codex — GPT-6 Astra, esforço Ultra."
 }
